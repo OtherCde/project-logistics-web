@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our tracking app
+				tracking: {
+					blue: {
+						light: '#EBF5FF',
+						DEFAULT: '#2563eb',
+						dark: '#1e40af',
+					},
+					yellow: {
+						light: '#FEF3C7',
+						DEFAULT: '#F59E0B',
+					},
+					green: {
+						light: '#D1FAE5',
+						DEFAULT: '#10B981',
+					},
+					gray: {
+						lightest: '#F8FAFC',
+						light: '#F1F5F9',
+						DEFAULT: '#94A3B8',
+						dark: '#334155',
+					}
 				}
 			},
 			borderRadius: {
